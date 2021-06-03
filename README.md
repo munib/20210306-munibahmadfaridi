@@ -47,6 +47,6 @@ http://localhost:3000/
 
 # data validation
 
- -> gender should me Male/Femail
+ -> gender should be Male/Femail
  -> height should be in CM
  -> weight should be in kg
