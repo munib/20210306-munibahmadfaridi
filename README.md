@@ -37,6 +37,13 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+# access App using 
+
+http://localhost:3000/
+
+OR
+
+POSTMAN
 
 # sample data to test app
 
