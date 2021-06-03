@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { CreateBmiDto } from './app.interface';
+import { CreateBmiDto } from './app.class';
 import { AppService } from './app.service';
 
 @Controller()

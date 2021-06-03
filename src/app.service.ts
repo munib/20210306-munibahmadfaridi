@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { CreateBmiDto } from './app.interface';
+import { CreateBmiDto } from './app.class';
 import { AppModule } from './app.module';
-import { BMI_CONSTANT } from './app.datasoruce'
+import { BMI_CONSTANT } from './app.constant'
 
 @Injectable()
 export class AppService {
