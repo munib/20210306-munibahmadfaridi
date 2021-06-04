@@ -16,7 +16,7 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "updated CreateBmiDto Object"', () => {
+    it('should return "updated BmiOutputDto Object"', () => {
       const received = TEST_DATA.received;
       const expected = TEST_DATA.expected;
       expect(appController.BmiCalculator(received)).toEqual(expected);

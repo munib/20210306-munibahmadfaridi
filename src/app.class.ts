@@ -12,3 +12,8 @@ export class CreateBmiDto {
     bmiRange?: string;
     healthRisk?: string;
 }
+
+export class BmiOutputDto {
+    result?: CreateBmiDto[];
+    totalOverweight?: number;
+}
